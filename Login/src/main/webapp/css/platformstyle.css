@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+* {
+    background-color: #91b2c1;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0; 
+}
+
+li, .apply-button, submit {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px  10%;
+}
+
+.logo {
+    width: 95px;
+    cursor: pointer;
+    list-style: none;
+    margin-right: auto;
+}
+
+.main-photo {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    max-width: 650px;
+    display: flex;
+    box-shadow: -7px 10px 5px 0px rgba(97, 92, 92, 0.815);    
+}
+
+submit {
+    padding: 9px 25px;
+    margin-left: 45px;
+    border: none;
+}
+.a{
+    display: inline;
+    margin-left: 40px;
+}
+.learn-adapt-change {
+    display: inline-block;
+    width: auto;
+    font-size: 27px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+h3 {
+    margin-left: 35px;
+    padding-left: 35px;
+}
+.learn-paragraph {
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 10px;
+    width: 128px;
+}
+
+.adapt-paragraph {
+    width: 125px;
+    font-size: 13px;
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+.change-paragraph {
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 5px;
+    width: 129px;
+    
+}
+
+.apply:hover {
+    opacity: .6; 
+    box-shadow: 0px 0px 0px 4px rgba(14, 125, 168, 0.904);    
+}
+
+.body-photo {
+    margin-right: 0px;
+    display: inline-block;
+}
+
+input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 135px;
+}
+
+.email {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    display: block;
+    margin-bottom: 25px;
+    border-style: none;
+    background-color: rgb(229, 227, 227);
+    color: grey;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+.password{
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 2px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    border-style: none;
+    background-color: rgb(229, 227, 227);
+    color: grey;
+    border-radius: 10px;
+}
+
+
+.login {
+    cursor: pointer;
+    background-color: black;
+    color: rgb(229, 227, 227);;
+    margin-left: 5px;
+}
+
+.login {
+    cursor: pointer;
+    background-color: black;
+    color: rgb(229, 227, 227);;
+    
+}
+
+.login-signup {
+    margin-right: 0px;
+    margin-top: 25px;
+    display: inline-block;
+    width: 550px;
+    float: right;
+}
+
+.box-paragraph {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+.email-label {
+    font-size: 13px;
+}
+
+.password-label {
+    font-size: 13px;
+}
+
+
+.contract {
+    margin-top: 25px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.fb {
+    display: inline-block;
+    width: 47px;
+    margin-top: 25px;
+    margin-left: 28px;
+    margin-right: 0px;
+    border-radius: 5px;
+    border-width: 1.8px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(229, 227, 227);
+    padding: .7em;
+    cursor: pointer;
+}
+
+.logos {
+    list-style-type: none;
+    display: inline-block;
+    display: flex;
+
+}
