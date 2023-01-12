@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+* {
+    background-color: #91b2c1;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0; 
+}
+
+li {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px  10%;
+}
+
+.logo {
+    width: 95px;
+    cursor: pointer;
+    list-style: none;
+    margin-right: auto;
+}
+
+.a{
+    display: inline;
+    margin-left: 40px;
+}
+h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+content p {
+    margin: 20px auto;
+	font-size: 50px;
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #000000 ;
+    font-size: 50px;
+}
